@@ -1,4 +1,4 @@
-xport default function updateUniqueItems(map) {
+export default function updateUniqueItems(map) {
   const list = map;
 
   if (list instanceof Map) {
